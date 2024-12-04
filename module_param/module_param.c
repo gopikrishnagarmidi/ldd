@@ -1,5 +1,5 @@
 #include<linux/kernel.h>
-#include<linux/module_param.h>
+#include<linux/moduleparam.h>
 #include<linux/init.h>
 #include<linux/module.h>
 
@@ -13,7 +13,7 @@ static int moduleparam_init(void)
 	return 0;
 }
 
-static int moduleparam_exit(void)
+static void moduleparam_exit(void)
 {
 	printk("module unloaded successfully\n");
 }

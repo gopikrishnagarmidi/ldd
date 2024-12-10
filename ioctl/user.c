@@ -13,8 +13,7 @@
 int main()
 {
     int fd, result;
-    //char data[4];
-int data;
+    int data;
     fd = open(DEVICE, O_RDWR);
     if (fd < 0) {
         perror("Failed to open the device");

@@ -112,5 +112,6 @@ module_init(ioctl_driver_init);
 module_exit(ioctl_driver_exit);
 
 MODULE_LICENSE("GPL");
+MODULE_AUTHOR("techdhaba");
 MODULE_DESCRIPTION("A simple IOCTL Linux driver");
 MODULE_VERSION("1.0");
